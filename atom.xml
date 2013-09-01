@@ -3,13 +3,51 @@
   <title><![CDATA[Scarlett's Blog]]></title>
   <link href="http://scarltee.tk/atom.xml" rel="self"/>
   <link href="http://scarltee.tk"/>
-  <updated>2013-09-01T03:20:02.882Z</updated>
+  <updated>2013-09-01T06:11:07.531Z</updated>
   <id>http://scarltee.tk/</id>
   <author>
     <name><![CDATA[Jingyuan Cheng]]></name>
     <email><![CDATA[chengjy11@gmail.com]]></email>
   </author>
   <generator uri="http://zespia.tw/hexo">Hexo</generator>
+  <entry>
+    <title type="html"><![CDATA[提高生活幸福感的方法若干]]></title>
+    <link href="http://scarltee.tk/2013/ways-to-a-happy-life/"/>
+    <id>http://scarltee.tk/2013/ways-to-a-happy-life/</id>
+    <published>2013-09-01T03:32:38.000Z</published>
+    <updated>2013-09-01T06:10:41.000Z</updated>
+    <content type="html"><![CDATA[<p>若干天前，我看了知乎上的一篇文章：
+<a href="http://www.zhihu.com/question/20840874">哪些东西买了之后，会让人因生活质量和幸福感提升而感觉相见恨晚？</a>感觉受到启发。这里只是写写我最近的一些感受，对于“提高生活幸福感”既不充分也不必要，且作一笑。</p>
+<a name="more"></a>
+
+<h3>Tech</h3>
+<p>这个是给我的生活带来最多改变的因素。我是最近半年里才开始对科技（主要是计算机和生物领域）着迷的，开始体会到传说中的现代化的好处。</p>
+<p>关于计算机，以前的我可能比较像这样（<font color=#A09>//至少在某些人眼里比较像←_←</font> ）：</p>
+<p><img src="http://pic.yupoo.com/i404/CL0Kc5ta/BBzFV.jpg" alt="Watching someone use a computer@#￥%……&amp;（图片来自reddit）"></p>
+<p>自从变成了小远2.0 beta以后，我就比较沉迷于玩电脑了。来举几个例子：  </p>
+<h4>1. 简洁至上</h4>
+<p>用鼠标点击“Google Search”按钮搜索这种事情当然不会做的。。就越简洁越好的原则而言，过去我似乎只有用tab键这一个算是好习惯（<font color=#A09>//不许poker face!</font> ）。后来开始用Chrome的Vimium插件，顿觉生活简单了很多。<br>最近我改用macbook，OS X相当简洁。最显著的大约是触控板，触控板+键盘可以让人基本脱离鼠标生存。Google浏览器中在审查元素里改变颜色数值，我早先的做法是在#后面输入数值（据说可以shift+up），比如999，现在发现可以用双指滑动连续改变，这样就很user-friendly了。另外一个显著的简洁的例子是一个叫MPlayerX的应用程序，让看视频的体验变得不能更赞。另外，windows上那些恼人的广告也销声匿迹了。  </p>
+<h4>2. 辅助程序</h4>
+<p>一些应用程序归属于productivity一类，它们能够帮助用户快速完成某个目的，给我的计算机体验极大加分。上文所说的<em>Vimium</em>就是一个例子。Chrome上面还有好多这一类插件，譬如翻墙用的<em>ZenMate</em>，<em>Copy as Markdown</em>（<font color=#A09>//这篇文章里的超链接大多是用它写的</font> ），<em>FVD Video Downloader</em>，在虾米音乐网页版上很实用的<em>声海盗</em>等。<br>除了Chrome插件以外，还有许多其他程序能辅助高工作效率。Alfred v2+<a href="http://www.alfredworkflow.com/">Workflow</a>提供计算机的快速访问通道，与系统自带的Spotlight类似但更好（蜘蛛侠里的管家名为Alfred）。再如使用virtualbox运行windows。它能够满足我快速使用IE浏览器还有运行TPO，同时保留触控板跟快捷键（Boot Camp支持的那个windows就不保留，而且每次使用都要重启电脑）。  </p>
+<p><font color=#A09>//另外我还比较沉迷于破解应用程序是怎么回事……</font>  </p>
+<h4>3. 个人网站</h4>
+<p>对就是你正在看的这个网站。它是今年八月初诞生的，它给我的生活带来了一大乐趣（也即：所谓学习的乐趣）。折腾网站比折腾电脑还要好玩呢。</p>
+<h3>Aim</h3>
+<p>我过去的经历完美印证了这句话:没有目的的人生是无趣的人生...空闲的时候当然活得很轻松，并且轻松的生活是令人愉悦的，但是通常在空闲了一阵以后，我会体会到这样的感觉：drifting through life with little satisfaction and little completeness.这些日子通常会过得很快，但是过后不留下印象。<br>这个假期的后半部分里，我有了一些待完成的目标，对生活的掌控感又回来了。要活得清醒！</p>
+<center><img src="http://www.elite-view.com/art/Education/Famous_Quotes/M01~The-Aim-of-Life-Henry-Miller-Posters.jpg" alt=""></center>
+
+<h3>SNS</h3>
+<p>这是一个上大学以来我一直纠结的梗，一方面觉得它浪费时间，一方面又觉得完全脱离它就不快乐了。我现在的态度是，不带着迎合他人或者了解潮流的目的去使用SNS，而是为己所用的目的。比如，可以用来关注、了解两三个正能量的大牛学长学姐，可以用来跟闺蜜玩闹嬉笑，也可以用来某些八卦领域的学习（例如婚姻与爱情，并且这一类的值得阅读的文章大多出自同一些网络用户之手，或者大多会被所关注的几个友邻推荐，因此获得的途径还是很方便简单的）。  </p>
+<p><font color=#A09>//最不可取的就是无所事事漫无目的地泡SNS了……</FONT></p>
+<h3>Friends</h3>
+<p>TOEFL ibt的一个经典作文题是：<br>Do you agree or disagree with the following statement?<br><strong>The best things in life do not cost money.</strong><br>Use specific reasons and examples to support your opinion.  </p>
+<p>大多数人看到这个题目的第一反应就是友谊吧？（当然也可能是自然环境、自然资源这种比较理工科的答案=.=）朋友显而易见地可以极大提高生活幸福感。</p>
+<p>特别感谢高中时期的闺蜜们，感谢你们即使不在一地了依然对我不离不弃。你们带给我的太多，你们对我很重要。</p>
+<p><font color=#A09>//####BTW，推荐各位去收几个程序<del>猿</del>员做朋友吧。。绝对超值！</FONT></p>
+]]></content>
+    <category scheme="http://scarltee.tk/tags/life/" term="life"/>
+    <category scheme="http://scarltee.tk/tags/campus/" term="campus"/>
+  </entry>
   <entry>
     <title type="html"><![CDATA[我的seminar导师（这个有趣的人）]]></title>
     <link href="http://scarltee.tk/2013/my-mentor-liu/"/>
