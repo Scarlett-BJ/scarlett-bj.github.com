@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://scarltee.tk/about-me/index.html</loc>
+    <lastmod>2013-09-02T02:18:52.000Z</lastmod>
+  </url>
+  <url>
     <loc>http://scarltee.tk/2013/ways-to-a-happy-life/</loc>
     <lastmod>2013-09-01T06:34:21.000Z</lastmod>
   </url>
@@ -11,10 +15,6 @@
   <url>
     <loc>http://scarltee.tk/flickr/index.html</loc>
     <lastmod>2013-08-24T04:42:19.000Z</lastmod>
-  </url>
-  <url>
-    <loc>http://scarltee.tk/about-me/index.html</loc>
-    <lastmod>2013-08-21T13:30:11.000Z</lastmod>
   </url>
   <url>
     <loc>http://scarltee.tk/2012/in-search-of-memory/</loc>
