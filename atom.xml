@@ -3,13 +3,56 @@
   <title><![CDATA[Scarlett's Blog]]></title>
   <link href="http://scarltee.tk/atom.xml" rel="self"/>
   <link href="http://scarltee.tk"/>
-  <updated>2013-11-22T06:09:54.897Z</updated>
+  <updated>2014-01-21T14:36:26.332Z</updated>
   <id>http://scarltee.tk/</id>
   <author>
     <name><![CDATA[Jingyuan Cheng]]></name>
     <email><![CDATA[chengjy11@gmail.com]]></email>
   </author>
   <generator uri="http://zespia.tw/hexo">Hexo</generator>
+  <entry>
+    <title type="html"><![CDATA[STORM简介]]></title>
+    <link href="http://scarltee.tk/2014/storm/"/>
+    <id>http://scarltee.tk/2014/storm/</id>
+    <published>2014-01-20T10:28:11.000Z</published>
+    <updated>2014-01-21T14:36:03.000Z</updated>
+    <content type="html"><![CDATA[<p><font color = green>Courtesy</font>: This passage is adapted from a course presentation accomplished by <font color = #A09>Linfeng Zou</font> and <font color = #A09>Jingyuan Cheng</font> (me).</p>
+<p>2013年暑假，我有幸见到了著名的华裔女科学家<a href="http://zhuang.harvard.edu/">庄小威</a>，如传说中的一样聪明。庄小威31岁获得美国麦克阿瑟基金会“天才奖”，34岁成为哈佛大学化学与化学生物学系、物理系的双聘正教授，40岁成为美国科学院院士，今年也只有42岁。她发明的STORM荧光成像技术已经转让给尼康公司，基于该技术的荧光显微镜已经上市。本文将对STORM的原理及发展做一个简单介绍（科普向）。
+<a name="more"></a></p>
+<p>生物学研究包括技术、问题和体系三部分。STORM是庄小威发明的一种超分辨荧光成像技术，是<font color = #A09>St</font>ochastic <font color = #A09>O</font>ptical <font color = #A09>R</font>econstruction <font color = #A09>M</font>icroscopy（随机光学重构显微镜）的缩写。</p>
+<p>首先，什么是<font color = #A09>超分辨成像</font>？<br>超分辨成像是指突破远场衍射分辨极限的成像技术。远场光学是传统光学理论研究的对象，而远场衍射分辨极限是由德国科学家Abbe在1873年提出的，Abbe认为，由于衍射的限制，一个理想物点经过光学系统成像后，不可能得到理想像点，而是得到一个弥散斑，两个弥散斑靠近后难以区分，因此系统的分辨率被限制。这个分辨率大约为200nm，受可见光的波长及显微镜的数值孔径(Numerical Aperture)影响。也就是说，远场显微镜只能分辨出相互间的距离大于这个分辨率的物点。<br>但是，对于生物学研究而言，这个分辨率是远远不够用的。电子显微镜可以达到更高的分辨率，但是它有不能观察活细胞、只能得到黑白图像等缺点，不能完全取代光学显微镜。目前主要有两种方法来实现超分辨的光学成像：近场成像和单分子成像。STORM是单分子成像方法中的一种。</p>
+<p>2003年，Science上发表一篇文章[1]，说他们用单分子荧光成像在1.5nm的2D分辨率（以及0.5s的时间分辨率）上观察Myosin V（一种分子马达）在actin上的运动，并提出他们的观察结果支持了Hand-over-hand的运动模型。这突破了远场衍射分辨极限，是借助单分子成像的方法实现的：当视野中只有一个发光点的时候，就不存在两个弥散斑相互重叠的问题。而这个发光点的位置的精确确定是可以通过收集足够多的光子（~1000）实现的：增加测量次数（也就是收集光子数），可以降低衍射、检测器和背景噪音等因素带来的不确定性，减小“弥散斑”的直径。当然，这里就体现了单分子成像通过牺牲时间分辨率（收集多个光子需要时间）来获得空间分辨率的特点。被牺牲掉的时间分辨率在STORM中也没有被挽回。</p>
+<p>这篇文章实现了一个目的：<font color = #A09>单个光点的精确定位</font>。而光学成像还需要实现第二个目的：<font color = #A09>多个光点的精确定位</font>，其挑战在于：如何区分多个光点的位置。STORM是实现第二个目的的方法之一，在2006年由庄小威提出[2]。它借助的思想很简单：把多个光点问题转化为已经被解决的单个光点问题。由下面一张图就可以说明原理：当多个光点同时发光的时候，由于光点重叠，无法看清；借助一束弱光，将多个光点中的<font color = #A09>一个</font>激活为荧光态，记录光点位置，注意此时就回到了单个光点的精确定位问题。再借助另一束光，使光点失活为暗态，反复多次（~1000），便可实现多个光点的逐个精确定位。由于被激活的光点是随机的，所以这个技术叫stochastic。</p>
+<p><img src="https://31.media.tumblr.com/32576db5b0e3b37420cf2035300f8eaa/tumblr_mzpi4cH7Bf1t33g1oo1_500.gif" alt="Principle of STORM"></p>
+<p><img src="http://image.sciencenet.cn/album/201206/14/091237pzj50j52xqk85fjf.png" alt="Principle of STORM, another illustration"></p>
+<p>这里还有一个问题，就是如何实现荧光态和暗态的转变。庄小威在2006年用的是Cy3-Cy5对，这一对染料分子就是一个荧光探针，Cy3是activator，Cy5是reporter。这个探针有一个非常好的特点：在657nm红色激光照射下，Cy3-Cy5探针进入暗态；在532nm绿色激光照射下，Cy3-Cy5探针进入荧光态。这就够成了一次循环。并且，对于每个荧光探针，这样的转变可以反复进行上千次。这种性质（<font color = #A09>photoswitching behavior</font>）使得这样的探针满足超分辨荧光成像方法的需求，至少是单分子荧光成像方法的需求，也是STORM成功的关键所在。目前对于Cyanine Dyes的“暗态”的分子本质，以及荧光态与暗态的转变机制，有研究认为，暗态是Cyanine dye的一个硫酯加成产物[3]。</p>
+<p><img src="http://ww2.sinaimg.cn/large/73eb80aegw1ecrh1t9lblj20np0apwfx.jpg" alt="Photoswitching behavior"></p>
+<p>2006年STORM发表以后，就获得了很高的关注度。2007年和2008年，庄小威组又发了两篇Science，分别报道了多色和3D的STORM成像[4,5]。</p>
+<p>多色STORM的原理非常简单：使用不同的荧光基团，它们具有不同的激发和去活波长。几种新的cyanide dye被研究，包括Alexa 647, Cy5.5和Cy7，加上Cy3和Cy5，它们两两组合，一个作为activator，另一个作为reporter，可以构成多种类似于Cy3-Cy5的荧光探针。这些新的探针具有很好的photoswitching behavior，且在荧光态与暗态的转变中，它们所使用的激光具有不同的波长，包括activation与deactivation波长。由此，便可以得到彩色的STORM图像。</p>
+<p>之前提到，最早的超分辨荧光成像是二维的。在2D-STORM的技术基础上，3D-STORM的实现从原理上讲非常简单：在显微系统的光路中加入一个透镜（weak cylindrical lens），利用这个透镜造成的散光效果(<font color = #A09>astigmatism</font>)。直观上而言，这个透镜的效果是：当物点在预设的焦平面（定义为z=0）之外时，所观察到的像点在x、y方向上有不同程度的形变（即拉长，想象一下你裸眼看到的光点的形状），且用x、y方向的宽度来衡量像点时，两个宽度与z轴位置的函数可以分别用高斯方程来拟合。因此，可以在二维平面的图像上重构出三维的信息。2008年报道，3D-STORM侧向分辨率（lateral）达到20-30nm，轴向分辨率（axial）达到50-60nm。</p>
+<p><img src="http://ww1.sinaimg.cn/large/73eb80aegw1ecriruu75bj20n40acjso.jpg" alt="Principle of 3D-STORM: A weak cylindrical lens was introduced into the imaging path to create two slightly different focal planes for the x and y directions.
+"></p>
+<p>2012年，庄小威组发表了新的工作，通过使用两个物镜，把STORM的分辨率提升到侧向&lt;10nm，轴向&lt;20nm[6]。具体原理不在此做介绍。</p>
+<p>我关注STORM，并不是仅出于对该技术本身的兴趣。在超分辨光学成像领域，还有许多达到了同一分辨率水平的其他方法。但是，STORM这个技术本身非常聪明，它背后的科学思想简单明了，十分符合一个好的科学工作给人的印象。作为（大约是最）著名的华裔女科学家，庄小威的履历、性格和科学兴趣，大概会给作为学生的我们以一些启发。</p>
+<h3>Reference</h3>
+<ol>
+<li><p>Yildiz A, Forkey J N, McKinney S A, et al. Myosin V walks hand-over-hand: single fluorophore imaging with 1.5-nm localization[J]. Science, 2003, 300(5628): 2061-2065.</p>
+</li>
+<li><p>Rust M J, Bates M, Zhuang X. Stochastic optical reconstruction microscopy (STORM) provides sub-diffraction-limit image resolution[J]. Nature methods, 2006, 3(10): 793.</p>
+</li>
+<li><p>Dempsey G T, Bates M, Kowtoniuk W E, et al. Photoswitching mechanism of cyanine dyes[J]. Journal of the American Chemical Society, 2009, 131(51): 18192-18193.</p>
+</li>
+<li><p>Bates M, Huang B, Dempsey G T, et al. Multicolor super-resolution imaging with photo-switchable fluorescent probes[J]. Science, 2007, 317(5845): 1749-1753.</p>
+</li>
+<li><p>Huang B, Wang W, Bates M, et al. Three-dimensional super-resolution imaging by stochastic optical reconstruction microscopy[J]. Science, 2008, 319(5864): 810-813.</p>
+</li>
+<li><p>Xu K, Babcock H P, Zhuang X. Dual-objective STORM reveals three-dimensional filament organization in the actin cytoskeleton[J]. Nature methods, 2012.</p>
+</li>
+</ol>
+]]></content>
+    <category scheme="http://scarltee.tk/tags/biology/" term="Biology"/>
+    <category scheme="http://scarltee.tk/tags/course/" term="Course"/>
+  </entry>
   <entry>
     <title type="html"><![CDATA[男生节活动诞生记]]></title>
     <link href="http://scarltee.tk/2013/boys-day/"/>
