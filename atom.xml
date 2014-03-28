@@ -3,7 +3,7 @@
   <title><![CDATA[Scarlett's Blog]]></title>
   <link href="http://scarltee.tk/atom.xml" rel="self"/>
   <link href="http://scarltee.tk"/>
-  <updated>2014-03-28T08:35:25.695Z</updated>
+  <updated>2014-03-28T10:23:01.109Z</updated>
   <id>http://scarltee.tk/</id>
   <author>
     <name><![CDATA[Jingyuan Cheng]]></name>
@@ -36,7 +36,7 @@
 <p>Aliskiren这个分子的开发过程是一个很典型的基于结构的理性药物设计过程。针对一个药物靶点，设计出选择性的抑制剂，可以被认为是“simple mechanism, great chemistry”。然后后续的ALTITUDE trial则又说明了生物体的复杂性：我们其实还没有办法预测出一个药物分子进入人体后，到底会造成怎样的生理效果。</p>
 <p>一个药物分子的成功远远不是药物化学的成功那么简单。</p>
 ]]></content>
-    <category scheme="http://scarltee.tk/tags/pharmaceutics-1/" term="Pharmaceutics"/>
+    <category scheme="http://scarltee.tk/tags/pharmaceutics/" term="Pharmaceutics"/>
     <category scheme="http://scarltee.tk/tags/chemistry/" term="Chemistry"/>
     <category scheme="http://scarltee.tk/tags/tsinghua/" term="Tsinghua"/>
   </entry>
