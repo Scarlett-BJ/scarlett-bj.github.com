@@ -3,13 +3,43 @@
   <title><![CDATA[Scarlett's Blog]]></title>
   <link href="http://scarltee.tk/atom.xml" rel="self"/>
   <link href="http://scarltee.tk"/>
-  <updated>2014-03-05T01:34:36.183Z</updated>
+  <updated>2014-03-28T08:05:48.772Z</updated>
   <id>http://scarltee.tk/</id>
   <author>
     <name><![CDATA[Jingyuan Cheng]]></name>
     <email><![CDATA[chengjy11@gmail.com]]></email>
   </author>
   <generator uri="http://zespia.tw/hexo">Hexo</generator>
+  <entry>
+    <title type="html"><![CDATA[Aliskiren的开发前后]]></title>
+    <link href="http://scarltee.tk/2014/inspiration-of-aliskiren/"/>
+    <id>http://scarltee.tk/2014/inspiration-of-aliskiren/</id>
+    <published>2014-03-28T01:56:42.000Z</published>
+    <updated>2014-03-28T08:05:06.000Z</updated>
+    <content type="html"><![CDATA[<font color = green>This passage is adapted from my course presentation for <strong><em>Medicinal Chemistry</em></strong>.</font>
+
+<p>[Aliskiren] (<a href="http://en.wikipedia.org/wiki/Aliskiren">http://en.wikipedia.org/wiki/Aliskiren</a>) 是2007年由瑞士的制药公司诺华公司 (Novartis) 上市的高血压治疗药物，在美国的商品名为Tekturna，在欧洲的商品名为Rasilez。这个药物的特别之处在于，它针对的是一个新的靶点，这个靶点被认为是未来高血压药物研发的一个有希望的靶点。</p>
+<a name="more"></a>
+
+<h3>Background</h3>
+<p>高血压是心血管疾病的第一大[诱发因子] (<a href="http://www.ncbi.nlm.nih.gov/pubmed/14656957">http://www.ncbi.nlm.nih.gov/pubmed/14656957</a>) ；全球大约有六分之一的人口面临高血压的威胁，而根据2008年的[报道] (<a href="http://informahealthcare.com/doi/abs/10.1517/13543776.18.6.581">http://informahealthcare.com/doi/abs/10.1517/13543776.18.6.581</a>) ，只有不到百分之三十的人通过治疗实现了对血压的有效控制。因此，高血压治疗物的开发需求是十分巨大的。</p>
+<p>在Aliskiren之前，一个重要的药物靶点就是<font color = #A09>[肾素-血管紧张素系统] (<a href="http://zh.wikipedia.org/wiki/%E8%82%BE%E7%B4%A0-%E8%A1%80%E7%AE%A1%E7%B4%A7%E5%BC%A0%E7%B4%A0%E7%B3%BB%E7%BB%9F">http://zh.wikipedia.org/wiki/%E8%82%BE%E7%B4%A0-%E8%A1%80%E7%AE%A1%E7%B4%A7%E5%BC%A0%E7%B4%A0%E7%B3%BB%E7%BB%9F</a>) </font> (renin-angiotensin system, also known as  renin-angiotensin-aldosterone system, RAS, RAAS) 。这是一个人体的血压调节体系。在这个系统中，血管紧张肽原经过肾素 (renin) 和血管紧张素转化酶 (ACE) 催化的两步剪切，形成血管紧张素II (Ang II) 。血管紧张素II与其受体 (AT) 的结合会造成血压升高的生理反应。RAS的过度激活是产生高血压的原因之一，因此，有许多药物都是靶向这个系统，其中有两大类药物十分成功：ACE抑制剂 (ACEI) 和血管紧张素II受体拮抗剂 (ARB) 。2006年内，这两类药物的全球[销售额] (<a href="http://www.nature.com/nrd/journal/v6/n10/abs/nrd2421.html">http://www.nature.com/nrd/journal/v6/n10/abs/nrd2421.html</a>) 分别达到了100亿美元和167亿美元。但是这两类药物也存在它们的局限。肾素被认为是RAS中的最佳靶标，人们一直希望开发出肾素的抑制剂 (renin inhibitor) ，期望它的血压控制效果会更好，且副作用更小，因为肾素催化的是RAS中的第一步也是限速步的反应，且肾素对其底物的选择性非常高。</p>
+<p><img src="http://ww2.sinaimg.cn/large/73eb80aejw1eev9zoj0a2j213o0oywhc.jpg" class=" aligncenter " alt= "肾素-血管紧张素系统, adapted from Jensen, C. et al. Nature Reviews Drug Discovery 7, 399-410." title="RAS" width="600" /></p>
+<h3>Drug design</h3>
+<p>肾素抑制剂分子的设计主要是基于过渡态模拟的思想，即模拟肾素催化反应的底物的过渡态构象，设计与底物过渡态构象相似的分子，使之与肾素的结合比天然底物与肾素的结合更紧密，从而抑制肾素的酶活性 (也即：竞争性抑制) 。由于肾素的底物分子是多肽，因此人们最初设计的抑制分子也是<font color = #A09>肽类化合物</font>。但由于肽类化合物的药代动力学差，口服利用度非常低，在体内很快会被降解、排出，因此无法成药。这几乎也是所有肽类化合物在开发成药时面临的问题。</p>
+<p>解决这个问题的答案也是很清晰的：设计小分子抑制剂。其方法就是所谓的“<font color = #A09>基于结构的药物设计</font>” (structure-based drug design, also known as rational drug design, 理性药物设计) 。肽类抑制剂的设计源于对肾素底物分子的二维序列模拟，而为了摆脱分子的多肽骨架，需要在三维空间中模拟肾素底物分子的结构 (即构象) 。在当时得到的一个肽类抑制剂CGP38560的基础上，通过与肾素相互作用的三维构象模拟及进一步的结构优化，最终得到了Aliskiren分子。</p>
+<p><img src="http://ww3.sinaimg.cn/large/73eb80aejw1eevdtxxzukj215o0um0xs.jpg" class=" aligncenter " alt= "Aliskiren的获得: CGP38560与Aliskiren的分子在骨架上有一定相似，而它们在空间结构上的相似性亦非常显著 (见右上图) 。" title="design principle" width="500" /></p>
+<p>Aliskiren的设计思路可以由下图说明。左图是肽类抑制剂CGP38560与肾素结合的示意图，其相互作用主要由六个氢键 (橙色) 和四个疏水相互作用 (P1~P4) 组成。化学家计算后认为，P2和P4两个疏水相互作用对结合常数的贡献不大，故在Aliskiren的设计中舍弃这两个位点，将P1与P3两个位点用共价键直接相连，而尽量保留氢键作用位点。于是得到了右图的一些结构片段。通过设计不同的片段连接方式并进行结构与能量上的筛选，以及后续的结构优化，最终得到了Aliskiren分子。</p>
+<p><img src="http://ww2.sinaimg.cn/large/73eb80aejw1eeveb7c0bnj21kw0qfq7t.jpg" class=" aligncenter " alt= "Aliskiren的分子设计" title="design" width="700" /></p>
+<p>Aliskiren是第一个获得批准上市的肾素抑制剂，即所谓的“first-in-class”。它在体外的一半抑制浓度为0.6 nM，每天口服一次即可，上市后获得了很大成功。诺华公司希望扩大其市场范围，因而随后推出了一个全球的试验，称“<font color = #A09>ALTITUDE trial</font>”，希望证明Aliskiren与其它药物的组合作用下，可以降低II型糖尿病患者患心血管疾病和肾功能损伤的风险。然而，这个试验的结果几乎是与初衷背道而驰。有结果指出，将Aliskiren加入到II型糖尿病患者的正常药物中，不仅没有期望的好处，反而有可能是有害的。一年后，诺华公司主动中止了该试验。FDA随后也发表相应的禁忌声明，不建议糖尿病患者将Aliskiren及相关药物与ACEI或ARB等药物共同服用。Aliskiren这个药物在现在也不及刚上市时的成功了。</p>
+<h3>Conclusions</h3>
+<p>Aliskiren这个分子的开发过程是一个很典型的基于结构的理性药物设计过程。针对一个药物靶点，设计出选择性的抑制剂，可以被认为是“simple mechanism, great chemistry”。然后后续的ALTITUDE trial则又说明了生物体的复杂性：我们其实还没有办法预测出一个药物分子进入人体后，到底会造成怎样的生理效果。</p>
+<p>一个药物分子的成功远远不是药物化学的成功那么简单。</p>
+]]></content>
+    <category scheme="http://scarltee.tk/tags/pharmaceutics-1/" term="Pharmaceutics"/>
+    <category scheme="http://scarltee.tk/tags/chemistry/" term="Chemistry"/>
+    <category scheme="http://scarltee.tk/tags/tsinghua/" term="Tsinghua"/>
+  </entry>
   <entry>
     <title type="html"><![CDATA[STORM简介]]></title>
     <link href="http://scarltee.tk/2014/storm/"/>
