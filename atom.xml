@@ -3,7 +3,7 @@
   <title><![CDATA[Scarlett's Blog]]></title>
   <link href="http://scarltee.tk/atom.xml" rel="self"/>
   <link href="http://scarltee.tk"/>
-  <updated>2016-06-28T01:46:26.906Z</updated>
+  <updated>2016-06-28T06:02:31.297Z</updated>
   <id>http://scarltee.tk/</id>
   <author>
     <name><![CDATA[Jingyuan Cheng]]></name>
@@ -15,7 +15,7 @@
     <link href="http://scarltee.tk/2016/molmed/"/>
     <id>http://scarltee.tk/2016/molmed/</id>
     <published>2016-06-09T21:20:47.000Z</published>
-    <updated>2016-06-28T01:46:00.000Z</updated>
+    <updated>2016-06-28T06:02:09.000Z</updated>
     <content type="html"><![CDATA[<p>有一年多没有更新博客了。在博客沉寂的这段时间里，我开了一个微信订阅号（搜索名称：bizar11），偶尔po一些科普小知识和人文地理方面的小知识。今天想写一写我的硕士项目，做一个简单的概括。</p>
 <p>我们这个硕士项目叫<font color="purple">Molecular Medicine</font>，简称MolMed，隶属于柏林的一个医学院：<a href="https://en.wikipedia.org/wiki/Charit%C3%A9">Charité – Universitätsmedizin Berlin</a>。它是德国最好的医学院和最好的医院之一，同时隶属于柏林洪堡大学和柏林自由大学。德国历史上的诺贝尔生理学奖获得者有过半都是来自Charité的。</p>
 <a id="more"></a>
@@ -35,7 +35,7 @@
 
 <p>具体说一说课程内容吧。第一门的主要内容是cancer biology，学习一些癌症的基础知识，比如oncogene和tumor suppressor，癌症转移，细胞周期，细胞凋亡，基因疗法等等。本科学的生物基础课在这里很有用。接下来是我毫无基础的内分泌学，把我学得有点死去活来……当然，当时的课题进展也非常不顺，导致那时状态不太好。在这门课里依此介绍了人体的各个内分泌器官，比如hypothalamus, posterior and anterior pituitary, adrenal gland, gonad, etc. </p>
 <p>Development and genetics跟functional genomics有一定的关联。前者讲胚胎发育，epigentics，transgenic techniques，以及一些high-throughput techniques。后者主要是理论生物学，包括一些统计学的基础（Bernoulli and Markov model, probabilities），生物信息学基础，比如alignment，一些R语言编程课（<font color="purple">//Finally I began to learn some serious programming ^_^</font>），还有一些high-throughput technologies。</p>
-<p>除了学习内容很有趣以外，这个硕士项目提供的学术环境也比较优秀。柏林有很多出色的研究所，比如<a href="http://www.molgen.mpg.de/2168/en">Max Planck Institute for Molecular Genetics</a>，<a href="https://www.mdc-berlin.de/">Max Delbrück Center for Molecular Medicine</a>，在各自的领域（遗传学和分子医学）都有很出色的研究成果，硬件条件也很好。给我们上课的老师不仅有来自洪堡大学、自由大学和Charité的教授和博后，也有来自这些研究所的。上课的内容既有比较知识性的，也有非常结合科学研究前沿的。</p>
+<p>除了学习内容很有趣以外，这个硕士项目提供的学术环境也比较优秀。柏林有很多出色的研究所，比如<a href="http://www.molgen.mpg.de/2168/en">Max Planck Institute for Molecular Genetics</a>，<a href="https://www.mdc-berlin.de/">Max Delbrück Center for Molecular Medicine</a>，在各自的领域（遗传学和分子医学）都有很出色的研究成果，硬件条件也很好。给我们上课的老师不仅有来自洪堡大学、自由大学和Charité的教授和博后，有医生，也有来自这些研究所的。上课的内容既有比较知识性的，也有非常结合科学研究前沿的。</p>
 <p>上文提到与课程学习平行进行的课题研究。课题的内容原则上可以自己选择，可以在几所大学和研究所里自由选择导师。在这个硕士项目里，我们非常重视communication skills，在每个课题开始和结束的时候，都需要写一份报告（academic writing）并做一次演讲（academic presentations）。对于科学家来说，idea的产生和实验的设计很重要，而把idea和研究成果介绍给学术界也是同样重要的。我在这一点上也收获了许多。</p>
 <p>另外，我对这个硕士项目很满意的一点是，我的同学们都有优秀的学术背景，并且我们的班级关系非常好。我们一共有20个同学，大约一半是德国人，另一半是国际学生（包括几个以德语为母语的非（传统）德国人）。有时候在课上听到同学的精彩的发言或者提问，我忍不住会产生惊叹 :)</p>
 <p>MolMed项目是在2005年成立的，我是第XI届学生。（<font color="purple">//我本科学的是化学生物学，是第Ⅸ届学生 :)</font>）非常遗憾的是，MolMed项目和Charité在经费和管理上遇到了一些问题，从第XII届开始，学费从零（注册费和公交通票不算在内）上涨到了2500欧元/学期。一个可能的解决方案是，一部分学生可以从DAAD等途径拿到奖学金。</p>
