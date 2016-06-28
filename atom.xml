@@ -3,13 +3,46 @@
   <title><![CDATA[Scarlett's Blog]]></title>
   <link href="http://scarltee.tk/atom.xml" rel="self"/>
   <link href="http://scarltee.tk"/>
-  <updated>2016-06-06T09:24:41.300Z</updated>
+  <updated>2016-06-28T01:46:26.906Z</updated>
   <id>http://scarltee.tk/</id>
   <author>
     <name><![CDATA[Jingyuan Cheng]]></name>
     <email><![CDATA[chengjy11@gmail.com]]></email>
   </author>
   <generator uri="http://zespia.tw/hexo">Hexo</generator>
+  <entry>
+    <title type="html"><![CDATA[Master Program in Molecular Medicine]]></title>
+    <link href="http://scarltee.tk/2016/molmed/"/>
+    <id>http://scarltee.tk/2016/molmed/</id>
+    <published>2016-06-09T21:20:47.000Z</published>
+    <updated>2016-06-28T01:46:00.000Z</updated>
+    <content type="html"><![CDATA[<p>有一年多没有更新博客了。在博客沉寂的这段时间里，我开了一个微信订阅号（搜索名称：bizar11），偶尔po一些科普小知识和人文地理方面的小知识。今天想写一写我的硕士项目，做一个简单的概括。</p>
+<p>我们这个硕士项目叫<font color="purple">Molecular Medicine</font>，简称MolMed，隶属于柏林的一个医学院：<a href="https://en.wikipedia.org/wiki/Charit%C3%A9">Charité – Universitätsmedizin Berlin</a>。它是德国最好的医学院和最好的医院之一，同时隶属于柏林洪堡大学和柏林自由大学。德国历史上的诺贝尔生理学奖获得者有过半都是来自Charité的。</p>
+<a id="more"></a>
+
+<p>Charité建于1710年，最初是普鲁士帝国为了隔离鼠疫患者而建的。那一场鼠疫最终没有扩散到柏林，隔离病房变成了普鲁士帝国的医学院。Charité这个名字是普鲁士帝国的国王起的，意为慈善（charity）。柏林大学在100年后才成立，Charité被整合了进去。在二战后，柏林一分为二，柏林大学也分成了两个，在西德的变成了自由大学，在东德的变成了洪堡大学。</p>
+<p>Molecular Medicine的直译是分子医学。我们学习疾病的分子机制（分子病理学），同时也学习相关的临床和科研方法。人们经常会产生的疑问是，在这个项目毕业后，你会成为医生吗？答案是，一般而言不会，我们会成为科学家 :)</p>
+<p>我们的课程安排比较奇怪，没有选课制度，课程表是项目安排好的，这一点可能跟协和医学院比较像。硕士期间一共有六门课，每门课大约上两个月。在这两个月里，我们只上一门课，每周有四个上午上课，下午去实验室做课题。两个月后考试，并做一个关于实验室课题的presentation。这样一年零两个月之后，上完六门课，做完两个时长五个月的课题，接下来就是十个月的硕士论文了。在此期间，会穿插一些跟临床关系密切的活动，比如去医院围观肿瘤切除手术。这大概就是我们的项目所谓的interdisciplinary approach的一方面吧。</p>
+<blockquote><p>... The shortage stems from the fact that, traditionally, medicine and the biological sciences have developed relatively separate systems of higher education: separate locations, curriculums, professors, and most importantly, separate goals. </p>
+<footer><strong>program goal and background</strong><cite><a href="https://www.molecular-medicine-berlin.com/en/about_us/">International Master´s Program Molecular Medicine</a></cite></footer></blockquote>
+
+
+<p>我们的六门课（Core Modules，核心模块）分别是：<font color="purple">Molecular Mechanisms of Disease, Molecular Endocrinology, Development and Genetics, Functional Genomics (Bioinformatics), Cardiovascular Diseases and Therapy, Infections and Immune Response</font>。可以看出来，我们学习的内容还是跟临床比较相关的。</p>
+<p>我在这个项目里已经进行了大半年的学习，现在已经进入第四门课的尾声。到目前为止，我还是很喜欢这个Master program的，因为我在这里学到了很多有趣的东西。一开始的两门课对我来说有点困难，因为我还不太适应新生活的各方面，在学习上不能像本科时那么高度专注。到了第三门课的时候，我终于感觉到一切都进入了正轨，学习效率高了不少，开始找到了科研的兴趣的动力，考试也不那么难以把握了。那门课讲的是遗传和胚胎发育，当时写了这么一条状态来描述我的学习状态：大概就是一种一直在接受密度比较大的知识和信息的状态。</p>
+<blockquote><p>这个学期的写照：I managed to understand most of the somitogenesis lecture without understanding what a somite is. 该高兴还是不高兴呢/笑哭</p>
+<footer><strong>miniblog 2016-02-28 22:57:47 (GMT+8)</strong><cite><a href="https://www.douban.com/people/131481046/">Scarlett's Douban</a></cite></footer></blockquote>
+
+
+<p>具体说一说课程内容吧。第一门的主要内容是cancer biology，学习一些癌症的基础知识，比如oncogene和tumor suppressor，癌症转移，细胞周期，细胞凋亡，基因疗法等等。本科学的生物基础课在这里很有用。接下来是我毫无基础的内分泌学，把我学得有点死去活来……当然，当时的课题进展也非常不顺，导致那时状态不太好。在这门课里依此介绍了人体的各个内分泌器官，比如hypothalamus, posterior and anterior pituitary, adrenal gland, gonad, etc. </p>
+<p>Development and genetics跟functional genomics有一定的关联。前者讲胚胎发育，epigentics，transgenic techniques，以及一些high-throughput techniques。后者主要是理论生物学，包括一些统计学的基础（Bernoulli and Markov model, probabilities），生物信息学基础，比如alignment，一些R语言编程课（<font color="purple">//Finally I began to learn some serious programming ^_^</font>），还有一些high-throughput technologies。</p>
+<p>除了学习内容很有趣以外，这个硕士项目提供的学术环境也比较优秀。柏林有很多出色的研究所，比如<a href="http://www.molgen.mpg.de/2168/en">Max Planck Institute for Molecular Genetics</a>，<a href="https://www.mdc-berlin.de/">Max Delbrück Center for Molecular Medicine</a>，在各自的领域（遗传学和分子医学）都有很出色的研究成果，硬件条件也很好。给我们上课的老师不仅有来自洪堡大学、自由大学和Charité的教授和博后，也有来自这些研究所的。上课的内容既有比较知识性的，也有非常结合科学研究前沿的。</p>
+<p>上文提到与课程学习平行进行的课题研究。课题的内容原则上可以自己选择，可以在几所大学和研究所里自由选择导师。在这个硕士项目里，我们非常重视communication skills，在每个课题开始和结束的时候，都需要写一份报告（academic writing）并做一次演讲（academic presentations）。对于科学家来说，idea的产生和实验的设计很重要，而把idea和研究成果介绍给学术界也是同样重要的。我在这一点上也收获了许多。</p>
+<p>另外，我对这个硕士项目很满意的一点是，我的同学们都有优秀的学术背景，并且我们的班级关系非常好。我们一共有20个同学，大约一半是德国人，另一半是国际学生（包括几个以德语为母语的非（传统）德国人）。有时候在课上听到同学的精彩的发言或者提问，我忍不住会产生惊叹 :)</p>
+<p>MolMed项目是在2005年成立的，我是第XI届学生。（<font color="purple">//我本科学的是化学生物学，是第Ⅸ届学生 :)</font>）非常遗憾的是，MolMed项目和Charité在经费和管理上遇到了一些问题，从第XII届开始，学费从零（注册费和公交通票不算在内）上涨到了2500欧元/学期。一个可能的解决方案是，一部分学生可以从DAAD等途径拿到奖学金。</p>
+<p>最后附一张去年十月份在教室门口拍的照片 :)</p>
+<p><img src="/img/Charite.jpg" class=" aligncenter " alt= "A photo taken at Charite //somehow it failed to be aligned in the center..." title="A photo taken at Charite " width="400" /></p>
+]]></content>
+  </entry>
   <entry>
     <title type="html"><![CDATA[学习德语]]></title>
     <link href="http://scarltee.tk/2015/learning-german/"/>
