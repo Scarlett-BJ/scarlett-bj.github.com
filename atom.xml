@@ -3,13 +3,115 @@
   <title><![CDATA[Scarlett's Blog]]></title>
   <link href="http://scarltee.tk/atom.xml" rel="self"/>
   <link href="http://scarltee.tk"/>
-  <updated>2016-06-29T19:03:58.745Z</updated>
+  <updated>2016-07-01T21:58:12.838Z</updated>
   <id>http://scarltee.tk/</id>
   <author>
     <name><![CDATA[Jingyuan Cheng]]></name>
     <email><![CDATA[chengjy11@gmail.com]]></email>
   </author>
   <generator uri="http://zespia.tw/hexo">Hexo</generator>
+  <entry>
+    <title type="html"><![CDATA[提高生活幸福感的方法若干（2）]]></title>
+    <link href="http://scarltee.tk/2016/tech-interests-1/"/>
+    <id>http://scarltee.tk/2016/tech-interests-1/</id>
+    <published>2016-06-30T07:09:29.000Z</published>
+    <updated>2016-07-01T21:56:24.000Z</updated>
+    <content type="html"><![CDATA[<p>又名：绿手折腾电脑教程1.1</p>
+<p>若干年前，我写过一篇文章：<a href="http://scarltee.tk/2013/ways-to-a-happy-life/">提高生活幸福感的方法若干 | Scarlett&#39;s Blog</a>。虽然在现在看来，那篇文章实在是很可（幼）爱（稚），但是，现在我又要写一篇类似的文章了。。。这次的主题是solely关于tech的。</p>
+<h2>OS X: Everthing is about productivity</h2>
+<p>我在2013年开始使用Macbook Pro。在一开始，我就被OS X系统迷住了，一切都比Windows更美、更简洁、更流畅、更intuitive。但那时还是我跟它的蜜月期，之后就慢慢习惯了。但最近，因为开始学习编程，做了一些新的task，我必须得说，我重新迷上了OS X。</p>
+<h3>System harmony</h3>
+<p>People! Please use Keynote and Pages instead of Powerpoint and Word! They are far more stylishly designed and are well integrated with other softwares on Mac. </p>
+<a id="more"></a>
+
+<p>I first considered switching into the native Apple apps because the Microsoft Office suite runs intolerably slowly on my computer. Once I started working on the Apple alternatives, I fell in love with them. One example is the practical &quot;Styles&quot; option, which enables the quick and perfect formatting of texts, paragraphs, shapes, bullets and lists. It&#39;s also highly easy to arrange the size and position of objects, both by editting them with your mouse and by specifying the coordinates. </p>
+<h3>Shortcuts!</h3>
+<p>I started frequently using the terminal a few weeks ago, and learned a few tricks that greatly increased my productivity.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="title">alias</span> vim=<span class="string">"~/MacVim-snapshot-77/mvim"</span>
+</pre></td></tr></table></figure>
+
+
+<p>The first example is creating <strong>aliases</strong> for commands. The idea is to create shortcuts for the commands so that you don&#39;t need to type them in every time. The example above enables you to use &quot;vim&quot; instead of the long string &quot;~/MacVim-snapshot-77/mvim&quot;, which of course saves great time if you are a MacVim user. </p>
+<font color="#F0027F"># I needed this long address because my old MacVim didn&#39;t support copy/pasting into clipboard, and I couldn&#39;t replace the old one with the newly installed MacVim, so I had to create the shortcut to refer &quot;vim&quot; to the new address..</font>
+
+<p>However, it&#39;s only a temporary alias. Once the terminal window is closed, the alias is no longer available. To create a permanent alias, you need to write the code above in a file called &quot;.bash_profile&quot;:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+</pre></td><td class="code"><pre>vi ~/.bash_profile
+# add your code <span class="keyword">in</span> the <span class="keyword">file</span>, save <span class="keyword">and</span> close the <span class="keyword">file</span>
+source ~/.bash_profile			# Don<span class="attribute">'t</span> forget <span class="keyword">to</span> activate the changes you just made!
+</pre></td></tr></table></figure>
+
+
+<p>The same trick works on other commands:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+</pre></td><td class="code"><pre><span class="keyword">alias</span> blog=<span class="string">"cd ~/Documents/scarlyblog"</span>		# shortcut <span class="keyword">to</span> enter the directory you want
+<span class="keyword">alias</span> lab=<span class="string">"ssh name@host.de"</span>			# shortcut <span class="keyword">to</span> connect via SSH <span class="keyword">to</span> your server
+<span class="keyword">alias</span> fetch=<span class="string">"scp name@host.de:~/somefolder/*"</span>	# shortcut <span class="keyword">to</span> securely copy files from your server
+</pre></td></tr></table></figure>
+
+
+<p>Yeah! <font color="#66A61E">Makes the world a better place!</font></p>
+<p>Another trick I use all the time is the powerful <strong>keyboard shortcuts</strong>. For example, you can search for a line in the command history with <font color="#7570B3">control + R</font>, go the end/start of the line with <font color="#7570B3">command + left/right</font>, move to the adjacent to the text field with <font color="#7570B3">control + left/right</font>, select the text(s) or paragraph(s) with <font color="#7570B3">shift + option + left/right/up/down</font>, terminate a process with <font color="#7570B3">control + c</font>, etc. The list goes on and on.</p>
+<p>Also, don&#39;t forget your <strong>Spotlight Search</strong>: <font color="#7570B3">control + space</font>!</p>
+<h2>Tab</h2>
+<font color="#66A61E">Are you a tab person or space person? :))</font>
+
+<p>Tab is especially useful if you want to create a <strong>hierarchical structure</strong> for your notes or text. It indents one paragraph under another. It&#39;s of course useful in the terminal (in RStudio as well) to let the program <strong>autofill</strong> (tab completion) the partially typed commands.</p>
+<h2>Use the terminal!</h2>
+<p>I have already mentioned terminal before. Once you start working with the terminal, you will literally become obsessed with it because it enables you to do tasks that are otherwise at least combersome.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="code"><pre><span class="title">ls</span> -a ~/directory			# list the otherwise invisible files <span class="keyword">in</span> the directory
+<span class="title">mdfind</span> -name<span class="string"> 'ethic'</span> -onlyin ~/<span class="type">Documents</span>/lecture		# search for files <span class="keyword">in</span> some directory
+<span class="title">rm</span> -rf ~/<span class="type">Documents</span>/lecture/*ethic*	# delete the files that you have just found
+<span class="title">ls</span> -lh ~/<span class="type">Documents</span>/lecture		# list the files <span class="keyword">in</span> the directory and their sizes
+<span class="title">python</span>					# call your favorate calculator :)
+<span class="title">defaults</span> write com.apple.screencapture location ~/<span class="type">Downloads</span>	# combine with the next line
+<span class="title">killall</span> <span class="type">SystemUIServer</span>			# change the default directory to <span class="type">Downloads</span> for screenshots
+</pre></td></tr></table></figure>
+
+
+<p>I already had some sweet experiences with my terminal where it helped me to solve annoying problems. Once I did not properly saved my script and the workspace before leaving the lab. On the next day, I surprisingly found that I was not able to open my script any more (yeah, what a surprise!). I asked my wonderful colleague for help, and the solution in the end was to dig my file up from the hourly backups:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="code"><pre><span class="title">cd</span> .zfs
+<span class="title">cd</span> snapshot
+<span class="title">ls</span>
+<span class="title">cd</span> hourly-<span class="number">2016</span>-<span class="number">06</span>-<span class="number">15</span>-<span class="number">15</span>
+<span class="title">ls</span>
+<span class="title">cd</span> <span class="type">Documents</span>/mydirectory
+<span class="title">ls</span> -lh
+<span class="title">less</span> myfile
+<span class="title">cp</span> myfile ~/<span class="type">Documents</span>/mydirectory
+</pre></td></tr></table></figure>
+
+
+<p>Hmm... <font color="#F0027F"># The backup system in the institute is a bit wired (but makes sense): you cannot see the backup directory with ls (or ls -a, it&#39;s wiredly hidden) nor can you cd into the backups in one step. You have to know where the they are beforehand.</font></p>
+<h2>Conclusion</h2>
+<p>So, that&#39;s a bit of the things that I learned in the past few weeks. 我每天都感觉到好惊讶，原来我的电脑这么cool，能做这么多事情 :)</p>
+<p>在下一篇文章里，我会介绍一些我学习编程的体会和感受。<font color="#66A61E">Yes, it&#39;s amaaaazing!</font></p>
+]]></content>
+    <category scheme="http://scarltee.tk/tags/campus/" term="Campus"/>
+    <category scheme="http://scarltee.tk/tags/tech/" term="tech"/>
+    <category scheme="http://scarltee.tk/tags/programming/" term="programming"/>
+  </entry>
   <entry>
     <title type="html"><![CDATA[Master Program in Molecular Medicine]]></title>
     <link href="http://scarltee.tk/2016/molmed/"/>
