@@ -133,7 +133,7 @@
 </pre></td></tr></table></figure>
 
 
-<p>The first example is creating <strong>aliases</strong> for commands. The idea is to create shortcuts for the commands so that you don&#39;t need to type them every time you use them. The example above enables you to use &quot;vim&quot; instead of the long string &quot;~/MacVim-snapshot-77/mvim&quot;, which of course saves great time if you are a MacVim user. </p>
+<p>The first example is creating <strong>aliases</strong> for commands. The idea is to create shortcuts for the commands so that you don&#39;t need to type them every time you use them. The example above enables you to use the command named &quot;vim&quot; instead of the long string &quot;~/MacVim-snapshot-77/mvim&quot;, which of course saves great time if you are a MacVim user. </p>
 <font color="#F0027F"># I needed this long address because my old MacVim didn&#39;t support copy/pasting into clipboard, and I couldn&#39;t replace the old one with the newly installed MacVim, so I had to create the shortcut to refer &quot;vim&quot; to the new address..</font>
 
 <p>However, it&#39;s only a temporary alias. Once the terminal window is closed, the alias is no longer available. To create a permanent alias, you need to write the code above in a file called &quot;.bash_profile&quot;:</p>
@@ -150,19 +150,23 @@ source ~/.bash_profile			# Don<span class="attribute">'t</span> forget <span cla
 <figure class="highlight"><table><tr><td class="gutter"><pre>1
 2
 3
-</pre></td><td class="code"><pre><span class="keyword">alias</span> blog=<span class="string">"cd ~/Documents/scarlyblog"</span>		# shortcut <span class="keyword">to</span> enter the directory you want
-<span class="keyword">alias</span> lab=<span class="string">"ssh name@host.de"</span>			# shortcut <span class="keyword">to</span> connect via SSH <span class="keyword">to</span> your server
-<span class="keyword">alias</span> fetch=<span class="string">"scp name@host.de:~/somefolder/*"</span>	# shortcut <span class="keyword">to</span> securely copy files from your server
+4
+</pre></td><td class="code"><pre><span class="keyword">alias</span> blog=<span class="string">"cd ~/Documents/scarlyblog"</span>		<span class="comment"># enter the directory you want</span>
+<span class="keyword">alias</span> server=<span class="string">"./hexo server"</span>			<span class="comment"># start the server</span>
+<span class="keyword">alias</span> lab=<span class="string">"ssh name@host.de"</span>			<span class="comment"># connect via SSH to your server</span>
+<span class="keyword">alias</span> fetch=<span class="string">"scp name@host.de:~/somefolder/*"</span>	<span class="comment"># securely copy files from your server</span>
 </pre></td></tr></table></figure>
 
 
 <p>Yeah! <font color="#66A61E">Makes the world a better place!</font></p>
-<p>Another trick I use all the time is the powerful <strong>keyboard shortcuts</strong>. For example, you can search for a line in the command history with <font color="#7570B3">control + R</font>, go the end/start of the line with <font color="#7570B3">command + left/right</font>, move to the adjacent to the text field with <font color="#7570B3">control + left/right</font>, select the text(s) or paragraph(s) with <font color="#7570B3">shift + option + left/right/up/down</font>, terminate a process with <font color="#7570B3">control + c</font>, etc. The list goes on and on.</p>
+<p>Another trick I use all the time is the powerful <strong>keyboard shortcuts</strong>. For example, you can search for a line in the command history with <font color="#7570B3">control + R</font>, go to the start/end of the line with <font color="#7570B3">command + left/right</font>, move to the adjacent to the text field with <font color="#7570B3">control + left/right</font>, select the text(s) or paragraph(s) with <font color="#7570B3">shift + option + left/right/up/down</font>, terminate a process with <font color="#7570B3">control + c</font>, etc. The list goes on and on.</p>
 <p>Also, don&#39;t forget your <strong>Spotlight Search</strong>: <font color="#7570B3">control + space</font>!</p>
+<font color="#F0027F"> # The wildtype Spotlight Search seems to use command + space as the keyboard shortcut. I changed it years ago to cntrl and use cmd + space to switch input source instead. I completely forgot about it when I first wrote this article...</font>
+
 <h2>Tab</h2>
 <font color="#66A61E">Are you a tab person or space person? :))</font>
 
-<p>Tab is especially useful if you want to create a <strong>hierarchical structure</strong> for your notes or text. It indents one paragraph under another. It&#39;s of course useful in the terminal (in RStudio as well) to let the program <strong>autofill</strong> (tab completion) the partially typed commands.</p>
+<p>Tab is especially useful if you want to create a <strong>hierarchical structure</strong> for your notes or texts. It indents one paragraph under another. It&#39;s of course extremely convenient in the terminal (in RStudio as well) to let the program <strong>autofill</strong> (tab completion) the partially typed commands.</p>
 <h2>Use the terminal!</h2>
 <p>I have already mentioned terminal before. Once you start working with the terminal, you will literally become obsessed with it because it enables you to do tasks that are otherwise at least combersome.</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre>1
@@ -182,7 +186,7 @@ source ~/.bash_profile			# Don<span class="attribute">'t</span> forget <span cla
 </pre></td></tr></table></figure>
 
 
-<p>I already had some sweet experiences with my terminal where it helped me to solve annoying problems. Once I did not properly saved my script and the workspace before leaving the lab. On the next day, I surprisingly found that I was not able to open my script any more (yeah, what a surprise!). I asked my wonderful colleague for help, and the solution in the end was to dig my file up from the hourly backups:</p>
+<p>I already had some sweet experiences with my terminal where it helped me to solve annoying problems. Once in the lab, I did not properly save my script and the workspace before leaving. On the next day, I surprisingly found that I was not able to open my script any more (yeah, what a surprise!). I asked my wonderful colleague for help, and the solution in the end was to dig my file up from the hourly backups:</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre>1
 2
 3
@@ -204,7 +208,9 @@ source ~/.bash_profile			# Don<span class="attribute">'t</span> forget <span cla
 </pre></td></tr></table></figure>
 
 
-<p>Hmm... <font color="#F0027F"># The backup system in the institute is a bit wired (but makes sense): you cannot see the backup directory with ls (or ls -a, it&#39;s wiredly hidden) nor can you cd into the backups in one step. You have to know where the they are beforehand.</font></p>
+<p>Hmm... </p>
+<font color="#F0027F"># The backup system in the institute is a bit wired (but makes sense): you cannot see the backup directory with ls (or ls -a, it&#39;s wiredly hidden) nor can you cd into the backups in one step. You have to know where they are located beforehand.</font>
+
 <h2>Conclusion</h2>
 <p>So, that&#39;s a bit of the things that I learned in the past few weeks. 我每天都感觉到好惊讶，原来我的电脑这么cool，能做这么多事情 :)</p>
 <p>在下一篇文章里，我会介绍一些我学习编程的体会和感受。<font color="#66A61E">Yes, it&#39;s amaaaazing!</font></p>
