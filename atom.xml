@@ -3,7 +3,7 @@
   <title><![CDATA[Scarlett's Blog]]></title>
   <link href="http://scarltee.tk/atom.xml" rel="self"/>
   <link href="http://scarltee.tk"/>
-  <updated>2016-07-02T07:51:11.030Z</updated>
+  <updated>2016-07-02T11:17:50.742Z</updated>
   <id>http://scarltee.tk/</id>
   <author>
     <name><![CDATA[Jingyuan Cheng]]></name>
@@ -15,7 +15,7 @@
     <link href="http://scarltee.tk/2016/tech-interests-1/"/>
     <id>http://scarltee.tk/2016/tech-interests-1/</id>
     <published>2016-06-30T07:09:29.000Z</published>
-    <updated>2016-07-02T07:50:42.000Z</updated>
+    <updated>2016-07-02T10:29:11.000Z</updated>
     <content type="html"><![CDATA[<p>又名：绿手折腾电脑教程1.1</p>
 <p>若干年前，我写过一篇文章：<a href="http://scarltee.tk/2013/ways-to-a-happy-life/">提高生活幸福感的方法若干 | Scarlett&#39;s Blog</a>。虽然在现在看来，那篇文章实在是很可（幼）爱（稚），但是，现在我又要写一篇类似的文章了。。。这次的主题是solely关于tech的。</p>
 <h2>OS X: Everthing is about productivity</h2>
@@ -65,7 +65,7 @@ source ~/.bash_profile			# Don<span class="attribute">'t</span> forget <span cla
 <h2>Tab</h2>
 <font color="#66A61E">Are you a tab person or space person? :))</font>
 
-<p>Tab is especially useful if you want to create a <strong>hierarchical structure</strong> for your notes or texts. It indents one paragraph under another. It&#39;s of course extremely convenient in the terminal (in RStudio as well) to let the program <strong>autofill</strong> (tab completion) the partially typed commands.</p>
+<p>Tab is especially useful if you want to create a <strong>hierarchical structure</strong> for your notes or texts. It indents one paragraph under another. It&#39;s extremely convenient as well in the terminal (and in RStudio) to let the program <strong>autofill</strong> (tab completion) the partially typed commands.</p>
 <h2>Use the terminal!</h2>
 <p>I have already mentioned terminal before. Once you start working with the terminal, you will literally become obsessed with it because it enables you to do tasks that are otherwise at least combersome.</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre>1
