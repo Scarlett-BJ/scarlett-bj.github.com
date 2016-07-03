@@ -8,7 +8,7 @@
   <meta property="wb:webmaster" content="c79b80b030de8423" />
   <meta charset="utf-8">
   
-  <title>Archives: 2014/3 | Scarlett's Blog</title>
+  <title>Contries I've been to... | Scarlett's Blog</title>
   <meta name="author" content="Jingyuan Cheng">
   
   <meta name="description" content="Description">
@@ -16,7 +16,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+  <meta property="og:title" content="Contries I've been to..."/>
   <meta property="og:site_name" content="Scarlett's Blog"/>
 
   
@@ -104,44 +104,123 @@
 </div>
 </header>
   <div id="content" class="inner">
-    <div id="main-col" class="alignleft"><div id="wrapper">
-<h2 class="archive-title">2014/3</h2>
-
-
-  
-    <article class="post">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="page">
   
   <div class="post-content">
     <header>
       
-        <div class="icon"></div>
-				<!--
-           -<time datetime="2014-03-28T08:56:42.000Z"><a href="/2014/inspiration-of-aliskiren/">28/Mar/2014</a></time>
-					 -->
-				 <time datetime="2014-03-28T08:56:42.000Z">28/Mar/2014</time>
-      
       
   
-    <h1 class="title"><a href="/2014/inspiration-of-aliskiren/">Aliskiren的开发前后</a></h1>
+    <h1 class="title">Contries I've been to...</h1>
   
 
     </header>
     <div class="entry">
       
-        <font color = green>This passage is adapted from my course presentation for <strong><em>Medicinal Chemistry</em></strong>.</font>
+        <font size=4px>我去过的国家</font>
 
-<p><a href="http://en.wikipedia.org/wiki/Aliskiren">Aliskiren</a>是2007年由瑞士的制药公司诺华公司 (Novartis) 上市的高血压治疗药物，在美国的商品名为Tekturna，在欧洲的商品名为Rasilez。这个药物的特别之处在于，它针对的是一个新的靶点，这个靶点被认为是未来高血压药物研发的一个有希望的靶点。</p>
 
+
+<script src="http://cdn.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
+<script src="http://cdn.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
+<script src="http://cdn.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
+<div id="mapdiv" style="width: 800px; height: 400px;"></div>
+
+<script type="text/javascript">
+var map = AmCharts.makeChart("mapdiv",{
+type: "map",
+theme: "light",
+pathToImages : "http://cdn.amcharts.com/lib/3/images/",
+panEventsEnabled : true,
+backgroundColor : "#F8F8FF",
+backgroundAlpha : 1,
+zoomControl: {
+panControlEnabled : true,
+zoomControlEnabled : true
+},
+dataProvider : {
+map : "worldHigh",
+getAreasFromMap : true,
+areas :
+[
+	{
+		"id": "BE",
+		"showAsSelected": true
+	},
+	{
+		"id": "CH",
+		"showAsSelected": true
+	},
+	{
+		"id": "CZ",
+		"showAsSelected": true
+	},
+	{
+		"id": "DE",
+		"showAsSelected": true
+	},
+	{
+		"id": "IT",
+		"showAsSelected": true
+	},
+	{
+		"id": "NL",
+		"showAsSelected": true
+	},
+	{
+		"id": "PL",
+		"showAsSelected": true
+	},
+	{
+		"id": "US",
+		"showAsSelected": true
+	},
+	{
+		"id": "CN",
+		"showAsSelected": true
+	},
+	{
+		"id": "SG",
+		"showAsSelected": true
+	}
+]
+},
+areasSettings : {
+autoZoom : true,
+color : "#B4B4B7",
+colorSolid : "#4682B4",
+selectedColor : "#4682B4",
+outlineColor : "#666666",
+rollOverColor : "#9EC2F7",
+rollOverOutlineColor : "#000000"
+}
+});
+</script>
       
     </div>
     <footer>
       
         
-          <div class="alignleft">
-            <a href="/2014/inspiration-of-aliskiren/#more" class="more-link">Read More</a>
-          </div>
         
-        
+      <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style"><span class="jiathis_txt">分享到：</span>
+<a class="jiathis_button_tsina"></a>
+<a class="jiathis_button_weixin"></a>
+<a class="jiathis_button_douban"></a>
+<a class="jiathis_button_copy"></a>
+<a class="jiathis_button_cqq"></a>
+<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+var jiathis_config={
+  summary:"",
+  shortUrl:false,
+  hideMore:false
+}
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->  
       
       <div class="clearfix"></div>
     </footer>
@@ -149,15 +228,56 @@
 </article>
 
 
+<!--likaci js init begin-->
+<script type="text/javascript">
+$(document).ready(function(){
+   $("#Disqus_bt").mouseover(function(){
+     $("#Disqus_bt").css("background-color","#E6EFC2")
+     $("#duoshuo_bt").css("background-color","#f5f5f5")
+     $(".ds-thread").animate({ height: 'hide', opacity: 'hide' }, 'slow');
+     $("#disqus_thread").animate({ height: 'show', opacity: 'show' }, 'slow');
+   });
+   $("#duoshuo_bt").mouseover(function(){
+     $("#Disqus_bt").css("background-color","#f5f5f5")
+     $("#duoshuo_bt").css("background-color","#DFF4FF")
+     $(".ds-thread").animate({ height: 'show', opacity: 'show' }, 'slow');
+     $("#disqus_thread").animate({ height: 'hide', opacity: 'hide' }, 'slow');
+   });
+});
+</script>
+<!--likaic js init end-->
+<!--likaci css style begin-->
+<style type="text/css">
+#Disqus_bt,#duoshuo_bt { padding: 5px 10px 5px 7px; line-height: 17px; display: block; float: left; margin: 0 0 0 9px; background-color: #f5f5f5; border: 1px solid #dedede; border-top: 1px solid #eee; border-left: 1px solid #eee; }
+#Disqus_bt{color: #336699}
+#duoshuo_bt{color: #d12f19}
+</style>
+<!--likaci css style end-->
+<section id="comment">
+  <h1 class="title" style="float:left">Comments</h1>
+  <div id="duoshuo_bt" >多说</div>
+  <div id="Disqus_bt" >Disqus</div>
+  <div style="clear:both"></div>
+  <div id="disqus_thread" style="display:none">
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+<!--likaci add duoshuo begin-->
+    <div class="ds-thread"></div>
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"scarly"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = 'http://static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+        || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+<!--likaci add duoshuo end-->
+</section>
 
 
-  
-
-  <nav id="pagination">
-  
-  
-  <div class="clearfix"></div>
-</nav>
 </div></div>
     <aside id="sidebar" class="alignright"><center>
 	<img src="/img/me.jpg"/>
@@ -216,7 +336,7 @@ var disqus_shortname = 'scarly';
   var dsq = document.createElement('script');
   dsq.type = 'text/javascript';
   dsq.async = true;
-  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 }());
 </script>
