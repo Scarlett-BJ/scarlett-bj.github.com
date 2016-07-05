@@ -3,7 +3,7 @@
   <title><![CDATA[Scarlett's Blog]]></title>
   <link href="http://scarltee.tk/atom.xml" rel="self"/>
   <link href="http://scarltee.tk"/>
-  <updated>2016-07-04T13:29:16.262Z</updated>
+  <updated>2016-07-05T14:08:46.412Z</updated>
   <id>http://scarltee.tk/</id>
   <author>
     <name><![CDATA[Jingyuan Cheng]]></name>
@@ -15,7 +15,7 @@
     <link href="http://scarltee.tk/2016/tech-interests-1/"/>
     <id>http://scarltee.tk/2016/tech-interests-1/</id>
     <published>2016-06-30T07:09:29.000Z</published>
-    <updated>2016-07-03T21:07:12.000Z</updated>
+    <updated>2016-07-04T13:37:22.000Z</updated>
     <content type="html"><![CDATA[<p>又名：绿手折腾电脑教程1.1</p>
 <p>This post is about what I&#39;ve being learning since I caught programming fever. The main part is written in English.</p>
 <p>若干年前，我写过一篇文章：<a href="http://scarltee.tk/2013/ways-to-a-happy-life/">提高生活幸福感的方法若干 | Scarlett&#39;s Blog</a>。虽然在现在看来，那篇文章实在是很可（幼）爱（稚），但是，现在我又要写一篇类似的文章了。。。这次的主题是solely关于tech的。</p>
@@ -28,7 +28,7 @@
 <p>I first considered switching into the native Apple apps because the Microsoft Office suite runs intolerably slowly on my computer. Once I started working on the Apple alternatives, I fell in love with them. One example is the practical &quot;Styles&quot; option, which enables the quick and perfect formatting of texts, paragraphs, shapes, bullets and lists. It&#39;s also highly easy to arrange the size and position of objects, both by editting them with your mouse and by specifying the coordinates. </p>
 <h3>Shortcuts!</h3>
 <p>I started to frequently use the terminal a few weeks ago, and learned a few tricks that greatly increased my productivity.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre>1
+<figure class="highlight lang-ps"><table><tr><td class="gutter"><pre>1
 </pre></td><td class="code"><pre><span class="title">alias</span> vim=<span class="string">"~/MacVim-snapshot-77/mvim"</span>
 </pre></td></tr></table></figure>
 
@@ -37,7 +37,7 @@
 <font color="#F0027F"># I needed this long address because my old MacVim didn&#39;t support copy/pasting into clipboard, and I couldn&#39;t replace the old one with the newly installed MacVim, so I had to create the shortcut to refer &quot;vim&quot; to the new address..</font>
 
 <p>However, it&#39;s only a temporary alias. Once the terminal window is closed, the alias is no longer available. To create a permanent alias, you need to write the code above in a file called &quot;.bash_profile&quot;:</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre>1
+<figure class="highlight lang-ps"><table><tr><td class="gutter"><pre>1
 2
 3
 </pre></td><td class="code"><pre>vi ~/.bash_profile
@@ -47,7 +47,7 @@ source ~/.bash_profile			# Don<span class="attribute">'t</span> forget <span cla
 
 
 <p>The same trick works on other commands:</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre>1
+<figure class="highlight lang-powershell"><table><tr><td class="gutter"><pre>1
 2
 3
 4
@@ -69,7 +69,7 @@ source ~/.bash_profile			# Don<span class="attribute">'t</span> forget <span cla
 <p>Tab is especially useful if you want to create a <strong>hierarchical structure</strong> for your notes or texts. It indents one paragraph under another. It&#39;s extremely convenient as well in the terminal (and in RStudio) to let the program <strong>autofill</strong> (tab completion) the partially typed commands.</p>
 <h2>Use the terminal!</h2>
 <p>I have already mentioned terminal before. Once you start working with the terminal, you will literally become obsessed with it because it enables you to do tasks that are otherwise at least combersome.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre>1
+<figure class="highlight lang-ps"><table><tr><td class="gutter"><pre>1
 2
 3
 4
