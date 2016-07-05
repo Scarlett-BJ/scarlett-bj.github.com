@@ -2,7 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://scarltee.tk/travel-map/index.html</loc>
-    <lastmod>2016-07-05T14:17:12.000Z</lastmod>
+    <lastmod>2016-07-05T14:22:20.000Z</lastmod>
+  </url>
+  <url>
+    <loc>http://scarltee.tk/en/index.html</loc>
+    <lastmod>2016-07-05T14:18:44.000Z</lastmod>
+  </url>
+  <url>
+    <loc>http://scarltee.tk/cn/index.html</loc>
+    <lastmod>2016-07-05T14:18:38.000Z</lastmod>
   </url>
   <url>
     <loc>http://scarltee.tk/2016/tech-interests-1/</loc>
@@ -15,14 +23,6 @@
   <url>
     <loc>http://scarltee.tk/about-me/index.html</loc>
     <lastmod>2016-07-03T14:53:14.000Z</lastmod>
-  </url>
-  <url>
-    <loc>http://scarltee.tk/translate/tech-1.html</loc>
-    <lastmod>2016-07-02T11:14:16.000Z</lastmod>
-  </url>
-  <url>
-    <loc>http://scarltee.tk/translate/index.html</loc>
-    <lastmod>2016-07-02T11:12:55.000Z</lastmod>
   </url>
   <url>
     <loc>http://scarltee.tk/2016/molmed/</loc>
