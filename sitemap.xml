@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://scarltee.tk/cn/learn-programming.html</loc>
+    <lastmod>2016-07-09T21:42:54.000Z</lastmod>
+  </url>
+  <url>
+    <loc>http://scarltee.tk/2016/learn-programming/</loc>
+    <lastmod>2016-07-09T21:39:12.000Z</lastmod>
+  </url>
+  <url>
+    <loc>http://scarltee.tk/cn/index.html</loc>
+    <lastmod>2016-07-09T18:52:27.000Z</lastmod>
+  </url>
+  <url>
     <loc>http://scarltee.tk/travel-map/index.html</loc>
     <lastmod>2016-07-05T14:22:20.000Z</lastmod>
   </url>
   <url>
     <loc>http://scarltee.tk/en/index.html</loc>
     <lastmod>2016-07-05T14:18:44.000Z</lastmod>
-  </url>
-  <url>
-    <loc>http://scarltee.tk/cn/index.html</loc>
-    <lastmod>2016-07-05T14:18:38.000Z</lastmod>
   </url>
   <url>
     <loc>http://scarltee.tk/2016/tech-interests-1/</loc>

@@ -8,7 +8,7 @@
   <meta property="wb:webmaster" content="c79b80b030de8423" />
   <meta charset="utf-8">
   
-  <title>提高生活幸福感的方法若干（2） | Scarlett's Blog</title>
+  <title>How I started to learn programming | Scarlett's Blog</title>
   <meta name="author" content="Jingyuan Cheng">
   
   <meta name="description" content="Description">
@@ -16,7 +16,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="提高生活幸福感的方法若干（2）"/>
+  <meta property="og:title" content="How I started to learn programming"/>
   <meta property="og:site_name" content="Scarlett's Blog"/>
 
   
@@ -113,116 +113,45 @@
       
         <div class="icon"></div>
 				<!--
-           -<time datetime="2016-06-30T07:09:29.000Z"><a href="/2016/tech-interests-1/">30/Jun/2016</a></time>
+           -<time datetime="2016-07-08T09:34:09.000Z"><a href="/2016/learn-programming/">08/Jul/2016</a></time>
 					 -->
-				 <time datetime="2016-06-30T07:09:29.000Z">30/Jun/2016</time>
+				 <time datetime="2016-07-08T09:34:09.000Z">08/Jul/2016</time>
       
       
   
-    <h1 class="title">提高生活幸福感的方法若干（2）</h1>
+    <h1 class="title">How I started to learn programming</h1>
   
 
     </header>
     <div class="entry">
       
-        <p>又名：绿手折腾电脑教程1.1</p>
-<p>This post is about what I&#39;ve being learning since I caught programming fever. The main part is written in English.</p>
-<p>若干年前，我写过一篇文章：<a href="http://scarltee.tk/2013/ways-to-a-happy-life/">提高生活幸福感的方法若干 | Scarlett&#39;s Blog</a>。虽然在现在看来，那篇文章实在是很可（幼）爱（稚），但是，现在我又要写一篇类似的文章了。。。这次的主题是solely关于tech的。</p>
-<h2>OS X: Everthing is about productivity</h2>
-<p>我在2013年开始使用Macbook Pro。在一开始，我就被OS X系统迷住了，一切都比Windows更美、更简洁、更流畅、更intuitive。但那时还是我跟它的蜜月期，之后就慢慢习惯了。但最近，因为开始学习编程，做了一些新的task，我必须得说，我重新迷上了OS X。</p>
-<h3>System harmony</h3>
-<p>People! Please use Keynote and Pages instead of Powerpoint and Word! They are far more stylishly designed and better integrated with other softwares on Mac. </p>
-<a id="more"></a>
-
-<p>I first considered switching into the native Apple apps because the Microsoft Office suite runs intolerably slowly on my computer. Once I started working on the Apple alternatives, I fell in love with them. One example is the practical &quot;Styles&quot; option, which enables the quick and perfect formatting of texts, paragraphs, shapes, bullets and lists. It&#39;s also highly easy to arrange the size and position of objects, both by editting them with your mouse and by specifying the coordinates. </p>
-<h3>Shortcuts!</h3>
-<p>I started to frequently use the terminal a few weeks ago, and learned a few tricks that greatly increased my productivity.</p>
-<figure class="highlight lang-ps"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre><span class="title">alias</span> vim=<span class="string">"~/MacVim-snapshot-77/mvim"</span>
-</pre></td></tr></table></figure>
-
-
-<p>The first example is creating <strong>aliases</strong> for commands. The idea is to create shortcuts for the commands so that you don&#39;t need to type them every time you use them. The example above enables you to use the command named &quot;vim&quot; instead of the long string &quot;~/MacVim-snapshot-77/mvim&quot;, which of course saves great time if you are a MacVim user. </p>
-<font color="#F0027F"># I needed this long address because my old MacVim didn&#39;t support copy/pasting into clipboard, and I couldn&#39;t replace the old one with the newly installed MacVim, so I had to create the shortcut to refer &quot;vim&quot; to the new address..</font>
-
-<p>However, it&#39;s only a temporary alias. Once the terminal window is closed, the alias is no longer available. To create a permanent alias, you need to write the code above in a file called &quot;.bash_profile&quot;:</p>
-<figure class="highlight lang-ps"><table><tr><td class="gutter"><pre>1
-2
-3
-</pre></td><td class="code"><pre>vi ~/.bash_profile
-# add your code <span class="keyword">in</span> the <span class="keyword">file</span>, save <span class="keyword">and</span> close the <span class="keyword">file</span>
-source ~/.bash_profile			# Don<span class="attribute">'t</span> forget <span class="keyword">to</span> activate the changes you just made!
-</pre></td></tr></table></figure>
-
-
-<p>The same trick works on other commands:</p>
-<figure class="highlight lang-powershell"><table><tr><td class="gutter"><pre>1
-2
-3
-4
-</pre></td><td class="code"><pre><span class="keyword">alias</span> blog=<span class="string">"cd ~/Documents/scarlyblog"</span>		<span class="comment"># enter the directory you want</span>
-<span class="keyword">alias</span> server=<span class="string">"./hexo server"</span>			<span class="comment"># start the server</span>
-<span class="keyword">alias</span> lab=<span class="string">"ssh name@host.de"</span>			<span class="comment"># connect via SSH to your server</span>
-<span class="keyword">alias</span> fetch=<span class="string">"scp -r name@host.de:~/somefolder ~/putithere"</span>	<span class="comment"># securely copy files from your server</span>
-</pre></td></tr></table></figure>
-
-
-<p>Yeah! <font color="#66A61E">Makes the world a better place!</font></p>
-<p>Another trick I use all the time is the powerful <strong>keyboard shortcuts</strong>. For example, you can search for a line in the command history with <font color="#7570B3">control + R</font>, go to the start/end of the line with <font color="#7570B3">command + left/right</font>, move to the adjacent to the text field with <font color="#7570B3">control + left/right</font>, select the text(s) or paragraph(s) with <font color="#7570B3">shift + option + left/right/up/down</font>, terminate a process with <font color="#7570B3">control + c</font>, etc. The list goes on and on.</p>
-<p>Also, don&#39;t forget your <strong>Spotlight Search</strong>: <font color="#7570B3">control + space</font>!</p>
-<font color="#F0027F"> # The wildtype Spotlight Search seems to use command + space as the keyboard shortcut. I changed it years ago to cntrl and use cmd + space to switch input source instead. I completely forgot about it when I first wrote this article...</font>
-
-<h2>Tab</h2>
-<font color="#66A61E">Are you a tab person or space person? :))</font>
-
-<p>Tab is especially useful if you want to create a <strong>hierarchical structure</strong> for your notes or texts. It indents one paragraph under another. It&#39;s extremely convenient as well in the terminal (and in RStudio) to let the program <strong>autofill</strong> (tab completion) the partially typed commands.</p>
-<h2>Use the terminal!</h2>
-<p>I have already mentioned terminal before. Once you start working with the terminal, you will literally become obsessed with it because it enables you to do tasks that are otherwise at least combersome.</p>
-<figure class="highlight lang-ps"><table><tr><td class="gutter"><pre>1
-2
-3
-4
-5
-6
-7
-</pre></td><td class="code"><pre><span class="title">ls</span> -a ~/directory			# list the otherwise invisible files <span class="keyword">in</span> the directory
-<span class="title">mdfind</span> -name<span class="string"> 'ethic'</span> -onlyin ~/<span class="type">Documents</span>/lecture		# search for files <span class="keyword">in</span> some directory
-<span class="title">rm</span> -rf ~/<span class="type">Documents</span>/lecture/*ethic*	# delete the files that you have just found
-<span class="title">ls</span> -lh ~/<span class="type">Documents</span>/lecture		# list the files <span class="keyword">in</span> the directory and their sizes
-<span class="title">python</span>					# call your favorate calculator :)
-<span class="title">defaults</span> write com.apple.screencapture location ~/<span class="type">Downloads</span>	# combine with the next line
-<span class="title">killall</span> <span class="type">SystemUIServer</span>			# change the default directory to <span class="type">Downloads</span> for screenshots
-</pre></td></tr></table></figure>
-
-
-<p>I already had some sweet experiences with my terminal where it helped me to solve annoying problems. Once in the lab, I did not properly save my script and the workspace before leaving. On the next day, I surprisingly found that I was not able to open my script any more (yeah, what a surprise!). I asked my wonderful colleague for help, and the solution in the end was to dig my file up from the hourly backups:</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre>1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td><td class="code"><pre><span class="title">cd</span> .zfs
-<span class="title">cd</span> snapshot
-<span class="title">ls</span>
-<span class="title">cd</span> hourly-<span class="number">2016</span>-<span class="number">06</span>-<span class="number">15</span>-<span class="number">15</span>
-<span class="title">ls</span>
-<span class="title">cd</span> <span class="type">Documents</span>/mydirectory
-<span class="title">ls</span> -lh
-<span class="title">less</span> myfile
-<span class="title">cp</span> myfile ~/<span class="type">Documents</span>/mydirectory
-</pre></td></tr></table></figure>
-
-
-<p>Hmm... </p>
-<font color="#F0027F"># The backup system in the institute is a bit wired (but makes sense): you cannot see the backup directory with ls (or ls -a, it&#39;s wiredly hidden) nor can you cd into the backups in one step. You have to know where they are located beforehand.</font>
-
-<h2>Conclusion</h2>
-<p>So, that&#39;s a bit of the things that I learned in the past few weeks. 我每天都感觉到好惊讶，原来我的电脑这么cool，能做这么多事情 :)</p>
-<p>在下一篇文章里，我会介绍一些我学习编程的体会和感受。<font color="#66A61E">Yes, it&#39;s amaaaazing!</font></p>
+        <p>中文版见这里：<a href="http://scarltee.tk/cn/learn-programming.html">学习编程</a></p>
+<p>In this post, I want to share with you my experiences of learning programming. It has brought great joy in my life.</p>
+<p>Previously at Tsinghua University (during my bechelor&#39;s), I took a C++ course but didn&#39;t take it seriously, so after that I still couldn&#39;t write code at all. In March and April of 2016, we had the module of Bioinformatics (in our <a href="http://localhost:8888/2016/molmed/">Master Program</a>), during which we had a couple of R programming lectures. That&#39;s when I began to seriously learn programming.</p>
+<p><a id="more"></a>
+Currently I am working with R and learning Python by myself. My advice is, learn R if you are interested in <font color="#F0027F">data analysis</font> (for example, if you are a biologist working with high-throughput data); otherwise, it makes more sense to <font color="#66A61E">start with Python</font>, which is far more <font color="#66A61E">intuitive</font> than R and C++. I tried a Coursera course of R programming in 2013 but gave up in the middle, because I didn&#39;t realize that the power of R lies in big data manipulation, and I didn&#39;t have statistical training at that time.</p>
+<h2>Resources</h2>
+<p>As I have mentioned in this post, I had a few hands-on lectures on R programming, which were basically where I started to learn programming. We were provided with R scripts, which I felt was all I needed. It was more efficient to learn with these scripts on my own than being guided by other people. You can find two of them here: <a href="https://itb.biologie.hu-berlin.de/~bordyugov/tut/mmm2015/MMM15-introduction-to-R-1.pdf">Introduction to R: the cell is very different from our world</a>, <a href="https://itb.biologie.hu-berlin.de/~bordyugov/tut/mmm2015/MMM15-introduction-to-R-2.pdf">Basic string and DNA sequence handling</a>. We had another lecture about transcriptome analysis, but I couldn&#39;t find the script on the internet.</p>
+<p><a href="https://a-little-book-of-r-for-bioinformatics.readthedocs.io/en/latest/">A Little Book of R for Bioinformatics</a> is another great starting point. It&#39;s a great introduction to the R language as well as bioinformatics (mainly genome analysis), so it also gives you some idea about why we use R. The author (Avril Coghlan) has written more booklets on using R: <a href="http://a-little-book-of-r-for-biomedical-statistics.readthedocs.io/en/latest/">Biomedical Statistics</a>, <a href="http://a-little-book-of-r-for-time-series.readthedocs.io/en/latest/">Time Series</a> and <a href="http://little-book-of-r-for-multivariate-analysis.readthedocs.io/en/latest/">Multivariate Analysis</a>.</p>
+<p>Once you have learned the basics of R, you should build the habit of utilizing the comprehensive <font color="#F0027F">built-in help system</font>. At first it was a bit difficult for me to read the help pages because they are often very concise. But after a while, I got used to it and began to appreciate the power of it. It can sometimes be really helpful to read the documentation and entries of the help pages when you are not familiar with a package.</p>
+<p>As always, <a href="http://www.giyf.com/">Google is your Friend</a>. Besides, Github can be also very useful when you are using packages from there. Developers write about how to install their packages and you can also scrutinize the codes on Github. </p>
+<p>I learned Python from scratch on <a href="https://www.codecademy.com/learn/python">Codecademy</a>. It&#39;s a quite good introduction to the basics of Python in an interactive way.</p>
+<p><a href="http://edu.isb-sib.ch/course/view.php?name=UNIX_I">UNIX Fundamentals</a> is a great tutorial for the UNIX filesystem and shell commands.</p>
+<h2>Practice to learn</h2>
+<p>The best way to learn programming is by doing it. You can try building games (<font color="#66A61E">toy games xD</font>), work with simple projects like building a website, or just work on mathematical (/biological/...) problems, which can be easily found online. </p>
+<p>Here are a few assignments we had in the Bioinformatics module: 
+<a href="https://itb.biologie.hu-berlin.de/~bordyugov/tut/mmm2016/pdf/ha01.pdf">homework 1</a>,
+<a href="https://itb.biologie.hu-berlin.de/~bordyugov/tut/mmm2016/pdf/ha02.pdf">homework 2</a>,
+<a href="https://itb.biologie.hu-berlin.de/~bordyugov/tut/mmm2016/pdf/ha03.pdf">homework 3</a>. 
+Me and a few friends did the assignments independently and discussed them in our Lernkreis. Both processes were very beneficial and full of aha moments. Every time I could discover something that I didn&#39;t fully understood.</p>
+<h2>R packages that I love</h2>
+<p><a href="http://docs.ggplot2.org/current/">ggplot2</a>: the best package for data visualization ever. With the package you can easily draw plots that are ready for publication.</p>
+<p><a href="https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html">dplyr</a>: data manipulation. For example, you can efficiently select a subset of rows or columns in a data frame, add new columns that are functions of existing columns, and so on.</p>
+<p><a href="http://yihui.name/knitr/">knitr</a>: write reports in R. Documentation is very important because it saves time in the long run, for the writer himself and for the readers if they are working on similar tasks. As a great tool for documentation, knitr enables the smooth combination of text and code.</p>
+<p><a href="http://earlglynn.github.io/RNotes/package/RColorBrewer/index.html">RColorBrewer</a>: the greatest toy in R :) I am obsessed with the package because I have the same aesthetic standards with it.</p>
+<p><a href="https://blog.rstudio.org/2014/07/22/introducing-tidyr/">tidyr</a>: great tool to &quot;tidy&quot; the data. It works great with ggplot2.</p>
+<p></br>
+I hope this post can help you a little bit if you are a green hand like me and interested in programming :) Happy becoming beautiful nerds!</p>
 
       
     </div>
@@ -232,7 +161,7 @@ source ~/.bash_profile			# Don<span class="attribute">'t</span> forget <span cla
         
   
   <div class="tags">
-    <a href="/tags/campus/">Campus</a>, <a href="/tags/tech/">tech</a>, <a href="/tags/programming/">programming</a>
+    <a href="/tags/programming/">programming</a>, <a href="/tags/tech/">tech</a>, <a href="/tags/campus/">Campus</a>
   </div>
 
 <img src="/img/share2.png" width="180">
