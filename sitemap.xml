@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://scarltee.tk/about-me/index.html</loc>
+    <lastmod>2017-07-03T13:44:27.000Z</lastmod>
+  </url>
+  <url>
     <loc>http://scarltee.tk/travel-map/index.html</loc>
     <lastmod>2017-01-02T23:16:51.000Z</lastmod>
   </url>
@@ -31,10 +35,6 @@
   <url>
     <loc>http://scarltee.tk/2013/boys-day/</loc>
     <lastmod>2016-07-03T18:28:08.000Z</lastmod>
-  </url>
-  <url>
-    <loc>http://scarltee.tk/about-me/index.html</loc>
-    <lastmod>2016-07-03T14:53:14.000Z</lastmod>
   </url>
   <url>
     <loc>http://scarltee.tk/2016/molmed/</loc>
