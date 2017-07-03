@@ -3,7 +3,7 @@
   <title><![CDATA[Scarlett's Blog]]></title>
   <link href="http://scarltee.tk/atom.xml" rel="self"/>
   <link href="http://scarltee.tk"/>
-  <updated>2017-07-03T13:31:08.544Z</updated>
+  <updated>2017-07-03T13:32:01.924Z</updated>
   <id>http://scarltee.tk/</id>
   <author>
     <name><![CDATA[Jingyuan Cheng]]></name>
@@ -190,7 +190,7 @@ source ~/.bash_profile			# Don<span class="attribute">'t</span> forget <span cla
 <p><img src="/img/Charite.jpg" class=" aligncenter " alt= "A photo taken at Charite //somehow it failed to be aligned in the center..." title="A photo taken at Charite " width="400" /></p>
 ]]></content>
     <category scheme="http://scarltee.tk/tags/biology/" term="Biology"/>
-    <category scheme="http://scarltee.tk/tags/germany/" term="Germany"/>
+    <category scheme="http://scarltee.tk/tags/germany-1/" term="Germany"/>
     <category scheme="http://scarltee.tk/tags/campus/" term="Campus"/>
   </entry>
   <entry>
@@ -236,7 +236,7 @@ source ~/.bash_profile			# Don<span class="attribute">'t</span> forget <span cla
 ]]></content>
     <category scheme="http://scarltee.tk/tags/culture/" term="culture"/>
     <category scheme="http://scarltee.tk/tags/language/" term="language"/>
-    <category scheme="http://scarltee.tk/tags/germany-1/" term="germany"/>
+    <category scheme="http://scarltee.tk/tags/germany/" term="germany"/>
   </entry>
   <entry>
     <title type="html"><![CDATA[美国行记（3）洛杉矶，旧金山与纽约]]></title>
